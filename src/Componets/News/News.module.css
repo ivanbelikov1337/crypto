@@ -1,0 +1,73 @@
+.wrapper {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.itemContainer {
+    display: grid;
+    padding-top: 20px;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+    display: grid;
+    padding-top: 20px;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.title {
+    padding-left: 24rem;
+    font-size: 18px;
+    color: #d3cece;
+    padding-top: 12px;
+}
+
+.newsContainer {
+    display: grid;
+    gap: 4px;
+    width: 292px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.link {
+    text-decoration: none;
+    color: #d3cece;
+    height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: #498ae7;
+}
+
+.img {
+    width: 100%;
+    height: 150px;
+}
+
+.description {
+    color: #6e6c6c;
+    font-size: 14px;
+    height: 115px;
+    overflow: hidden;
+}
+
+.spinner {
+    padding-top: 12rem;
+    padding-left: 26rem;
+    width: 50px;
+    height: 50px;
+}
+.error  {
+    padding-top: 12rem;
+    padding-left: 17rem;
+    font-size: 20px;
+    color: #ff0000;
+}

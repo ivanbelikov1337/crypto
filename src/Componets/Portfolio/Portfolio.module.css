@@ -1,0 +1,75 @@
+.wrapper {
+    width: 927px;
+
+}
+
+.container {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 45px 145px 115px 50px 160px 120px 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #a9a2a2;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 45px  165px 125px 70px 160px 120px;
+    align-content: center;
+    align-items: center;
+    gap: 35px;
+    border-bottom: 1px solid #3f3e3e;
+    height: 50px;
+    font-size: 13px;
+    color: #919191;
+}
+
+.containerVol {
+    padding-left: 2px;
+}
+
+.containerMarket {
+    padding-left: 1px;
+}
+
+.containerRate {
+    display: flex;
+    gap: 5px;
+}
+
+.supply {
+    padding-left: 1px;
+}
+
+.name {
+    padding-left: 10px;
+
+
+}
+
+.containerName {
+    font-weight: 600;
+    color: #d3cece;
+    text-decoration: none;
+    outline: none;
+}
+.volu:hover {
+    cursor: pointer;
+    color: white;
+}
+.rate:hover {
+    cursor: pointer;
+    color: white;
+}
+.price:hover {
+    cursor: pointer;
+    color: white;
+}
+
+
+.containerName:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+}

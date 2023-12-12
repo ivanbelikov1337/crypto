@@ -1,0 +1,44 @@
+.wrapper    {
+    width: 300px;
+    height: 253px;
+    border: 2px solid #363434;
+    font-family: "Noto Sans",sans-serif;
+    color: silver;
+    font-size: 18px;
+    padding: 24px 24px 0 24px;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: space-between;
+    outline: none;
+    text-decoration: none;
+    background-color: rgba(47, 50, 65, 0.5);
+}
+
+.wrapper:hover  {
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    background-color: #3f3e3e;
+}
+.title  {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.img    {
+    width: 30px;
+    height: 30px;
+}
+.rank   {
+    font-family: "Noto Sans",sans-serif;
+    color: silver;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 18px;
+}
+
+.info   {
+    display: flex;
+    justify-content: space-between;
+}

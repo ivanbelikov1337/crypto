@@ -1,0 +1,217 @@
+
+.container {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.currenci {
+    padding-top: 5px;
+    color: silver;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 15px;
+}
+
+.currenciName {
+    color: #676666;
+    font-size: 14px;
+}
+
+.rank {
+    font-size: 15px;
+    color: silver;
+    background-color: #3a3838;
+    width: 75px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+.title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+.name {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ece6e6;
+}
+
+.symbol {
+    padding-top: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #989595;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding-top: 15px;
+
+}
+
+.rightSide {
+    padding-left: 110px;
+}
+
+.change {
+    font-size: 15px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.prices {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.options {
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    width: 45px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: silver;
+    background-color: #3f3e3e;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #504f4f;
+}
+
+.priceTitle {
+    width: 300px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #818080;
+    padding: 5px;
+    font-size: 13px;
+    color: #818080;
+}
+
+.priceData {
+    padding-top: 45px;
+    display: grid;
+    grid-gap: 0 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.priceTitleNum {
+    color: #d3cece;
+    font-size: 15px;
+}
+
+.linkCurrenci {
+    text-decoration: none;
+    outline: none;
+    color: #d3cece;
+}
+
+.infoItem {
+    display: flex;
+    gap: 5px;
+    padding-top: 15px;
+}
+
+.infoTitle {
+    font-size: 1.25rem;
+    color: #d3cece;
+    padding-top: 20px;
+}
+
+.infoItemName {
+    font-size: 13px;
+    color: #818080;
+    width: 80px;
+}
+
+.infoLink {
+    text-decoration: none;
+    color: #d3cece;
+    outline: none;
+    background-color: #3b3b3b;
+    padding: 0 7px 0 7px;
+    border-radius: 10px;
+}
+
+.infoLink:hover {
+    background-color: #595858;
+    cursor: pointer;
+}
+
+.schedule {
+    padding: 20px 0 20px 0;
+}
+
+.scheduleTitle {
+    font-size: 25px;
+    font-weight: 500;
+    color: #d3cece;
+    padding-top: 10px;
+    border-bottom: 1px solid #818080;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.scheduleSet    {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 0 20px 0;
+}
+.schedulePrices {
+    display: flex;
+    gap: 5px;
+    border-right: 1px solid #818080;
+    padding-right: 40px;
+
+}
+.scheduleTime   {
+    display: flex;
+    gap: 5px;
+
+}
+.scheduleOptions    {
+    background-color: #3f3e3e;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    color: #d3cece;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.scheduleOptions:hover  {
+    cursor: pointer;
+    background-color: #7a7979;
+    border: none;
+    outline: none;
+}
+.cryptoDescription  {
+    padding-top: 20px;
+    width: 250px;
+    color: #d3cece;
+    font-size: 14px;
+}

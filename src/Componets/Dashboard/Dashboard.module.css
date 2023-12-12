@@ -1,0 +1,65 @@
+.wrapper {
+    padding-top: 20px;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.title {
+    font-family: "Noto Sans", sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: silver;
+    padding-left: 15rem;
+}
+
+.container {
+    display: grid;
+    padding-top: 20px;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.currenci {
+    display: flex;
+}
+
+.button {
+    outline: none;
+    border: none;
+    width: 170px;
+    height: 35px;
+    border-radius: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 19px;
+    color: silver;
+    background-color: #3a3838;
+    margin-bottom: 15px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.showMore {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.spinner {
+    padding-left: 26rem;
+    width: 50px;
+    height: 50px;
+}
+.error  {
+    padding-left: 17rem;
+    font-size: 20px;
+    color: #ff0000;
+}
