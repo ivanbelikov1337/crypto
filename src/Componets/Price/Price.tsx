@@ -18,6 +18,7 @@ const Price: React.FC = () => {
     const [nameSwither, setNameSwither] = useState(true)
     const handleChange = (status: string) => {
         const newArray = [...cryptoData]
+
         switch (status) {
             case "rate":
                 setItem(newArray)
@@ -82,8 +83,8 @@ const Price: React.FC = () => {
                         {item && item.map((res, index) =>
                             <div key={index} className={styles.container}>
                                 <p className={styles.containerRate}>
-                                    <AiOutlineStar size={18} color={"silver"}/>
-                                    {res.rank}
+                                    <AiOutlineStar size={"2.2rem"} color={"silver"}/>
+                                    <span className={styles.rank}>{res.rank}</span>
                                 </p>
                                 <Link onClick={() => sendUuid(res.uuid!)} to={`/specificItem/${res.symbol}`}
                                       className={styles.containerName}>{res.symbol}</Link>

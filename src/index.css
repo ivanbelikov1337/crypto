@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap');
 
+html    {
+  font-size: calc(100vw / 1380 * 10);
+  @media (max-width: 1024px) {
+    font-size: calc(100vw / 968 * 10);
+  }
+  @media (max-width: 767px) {
+    font-size: calc(100vw / 968 * 10);
+  }
+  @media (max-width: 500px) {
+    font-size: calc(100vw / 425 * 10);
+  }
+}
+
 body {
   margin: 0;
   font-family: "Noto Sans",sans-serif;

@@ -11,14 +11,16 @@ import Portfolio from "../Portfolio/Portfolio";
 
 const AppRoutes = () => {
     return (
-        <Routes>
-            <Route path={ROUTES.DASHBOARD} element={<Dashboard/>}/>
-            <Route path={ROUTES.PRICE} element={<Price/>}/>
-            <Route path={ROUTES.LOGIN} element={<Login/>}/>
-            <Route path={ROUTES.PORTFOLIO} element={<Portfolio/>}/>
-            <Route path={ROUTES.NEWS} element={<News/>}/>
-            <Route path={ROUTES.SPECIFIC_ITEM} element={<SpecificItem/>}/>
-        </Routes>
+        <main>
+            <Routes>
+                <Route path={ROUTES.DASHBOARD} element={<Dashboard/>}/>
+                <Route path={ROUTES.PRICE} element={<Price/>}/>
+                <Route path={ROUTES.LOGIN} element={<Login/>}/>
+                <Route path={ROUTES.PORTFOLIO} element={<Portfolio/>}/>
+                <Route path={ROUTES.NEWS} element={<News/>}/>
+                <Route path={ROUTES.SPECIFIC_ITEM} element={<SpecificItem/>}/>
+            </Routes>
+        </main>
     );
 }
 

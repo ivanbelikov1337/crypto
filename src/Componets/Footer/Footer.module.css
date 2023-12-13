@@ -1,27 +1,55 @@
 .wrapper    {
-    border-top: 1px solid #3f3e3e;;
-    height: 60px;
+    border-top: 0.1rem solid #3f3e3e;;
+    height: 6rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 1.6rem;
 }
 .title  {
     color: silver;
 }
 .info   {
     display: flex;
-    gap: 20px;
+    gap: 2rem;
     color: silver;
 }
 .servis {
-    padding-right: 20px;
-    border-right: 1px solid silver;
+    padding-right: 2rem;
+    border-right: 0.1rem solid silver;
 }
 
 .social {
-    @apply flex items-center gap-[1rem];
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .icon {
-    @apply cursor-pointer opacity-60 w-[2.5rem] h-[2.5rem];
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    opacity: 0.6;
+}
+
+@media (max-width: 1024px) {
+    .cryptoInfo {
+        display: none;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .cryptoInfo {
+        display: none;
+    }
+    .wrapper    {
+        font-size: 1.4rem;
+    }
+    .title  {
+        width: 12rem;
+    }
+    .info   {
+        gap: 1rem;
+    }
 }

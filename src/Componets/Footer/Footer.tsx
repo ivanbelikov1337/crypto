@@ -4,7 +4,7 @@ import img from "../../Img/git.png"
 
 const Footer: React.FC = () => {
     return (
-        <section className={styles.wrapper}>
+        <footer className={styles.wrapper}>
             <p className={styles.title}>Crypto Info ©. All rights reserved.</p>
             <div className={styles.info}>
                 <p> Developer by Belikov Ivan</p>|
@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
                     </a>
                 </div>
             </div>
-        </section>
+        </footer>
     );
 }
 

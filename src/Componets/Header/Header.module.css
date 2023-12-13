@@ -1,55 +1,74 @@
 .wrapper {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #3f3e3e;
+    border-bottom: 0.1rem solid #3f3e3e;
 }
 
+.logImg {
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.dollarImg {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.notificationImg {
+    width: 1.8rem;
+    height: 1.8rem;
+}
 .logo {
     outline: none;
     text-decoration: none;
     color: #498ae7;
     font-family: "Noto Sans", sans-serif;
     font-weight: 600;
-    padding-left: 74px;
-    font-size: 22px;
+    padding-left: 7.4rem;
+    font-size: 2.2rem;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.2rem;
+}
+
+.titleLogo {
+    font-size: 2rem;
 }
 
 .cryptoInfo {
     display: flex;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: silver;
     font-family: "Noto Sans", sans-serif;
-    gap: 32px;
-    padding-left: 24px;
+    gap: 3.2rem;
+    padding-left: 2.2rem;
 }
 
 .setFiat {
     display: flex;
-    padding-left: 27px;
-    border-right: 2px solid #3a3838;
-    padding-right: 30px;
+    padding-left: 2.2rem;
+    border-right: 0.2rem solid #3a3838;
+    padding-right: 3rem;
 }
 
 .search {
     display: flex;
-    height: 34px;
-    width: 260px;
+    height: 3.2rem;
+    width: 26rem;
     align-items: center;
-    gap: 16px;
-    padding-left: 16px;
+    gap: 1.6rem;
+    padding-left: 1.6rem;
     background-color: #3a3838;
-    border-radius: 20px;
-    margin-left: 153px;
+    border-radius: 2rem;
+    margin-left: 15.3rem;
 }
 
 .input {
     outline: none;
     border: none;
-    width: 200px;
-    font-size: 16px;
+    width: 20rem;
+    font-size: 1.6rem;
     color: white;
     font-family: "Noto Sans", sans-serif;
     background-color: #3a3838;
@@ -58,12 +77,12 @@
 .select {
     display: flex;
     align-items: center;
-    gap: 8px;
-    width: 109px;
-    height: 34px;
-    font-size: 14px;
+    gap: 0.8rem;
+    width: 10.9rem;
+    height: 3.4rem;
+    font-size: 1.4rem;
     background-color: #3a3838;
-    border-radius: 20px;
+    border-radius: 2rem;
     font-family: "Noto Sans", sans-serif;
     justify-content: center;
     color: silver;
@@ -72,37 +91,40 @@
 .user {
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 3rem;
     background-color: #3a3838;
-    width: 36px;
-    height: 36px;
+    width: 3.6rem;
+    height: 3.6rem;
     border-radius: 50%;
 }
 
 .cryptoInfoT {
     color: #498ae7;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .notification {
-    width: 34px;
-    height: 34px;
+    width: 3.4rem;
+    height: 3.4rem;
     background-color: #3a3838;
-    margin-left: 16px;
-    border-radius: 20px;
+    margin-left: 1.6rem;
+    border-radius: 2.0rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.searchContainer {
+    position: relative;
+}
 .searchBox {
     position: absolute;
-    top: 4.4rem;
-    left: 23.3rem;
-    min-height: 196px;
-    height: 196px;
-    width: 275px;
+    top: 3.5rem;
+    right: -0.4rem;
+    min-height: 19.6rem;
+    height: 19.6rem;
+    width: 27.5rem;
     overflow: auto;
     background-color: #3d3b3b;
 }
@@ -110,9 +132,9 @@
 .searchBoxItem {
     display: flex;
     align-items: center;
-    padding: 10px;
-    gap: 15px;
-    font-size: 13px;
+    padding: 1rem;
+    gap: 1.5rem;
+    font-size: 1.3rem;
     color: silver;
     outline: none;
     border: none;
@@ -128,34 +150,75 @@
 }
 
 .img {
-    width: 25px;
-    height: 25px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .rank {
     display: flex;
     width: 100%;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .name {
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 
 .noResult {
-    padding: 85px;
-    width: 100px;
-    font-size: 20px;
+    padding: 8.5rem;
+    width: 10rem;
+    font-size: 2.0rem;
     color: silver;
 }
 
 .abolition {
     position: absolute;
-    top: 3.5rem;
-    left: 39.7rem;
+    top: 2rem;
+    right: 26rem;
     z-index: 1;
 }
 
 .abolition:hover {
     cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .cryptoInfo {
+        display: none;
+    }
+
+    .search {
+        margin-left: 6rem;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .logo {
+        padding-left: 1.7rem;
+        width: 13rem;
+    }
+
+    .searchBox {
+    width: 25rem;
+    }
+    .setFiat {
+        border-right: none;
+        padding-left: 1rem;
+        padding-right: 0;
+    }
+    .search {
+        margin-left: 1rem;
+        width: 12rem;
+    }
+    .user   {
+        display: none;
+    }
+    .notification   {
+        display: none;
+    }
+    .input {
+        width: 5rem;
+    }
 }

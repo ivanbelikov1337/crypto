@@ -1,97 +1,97 @@
 
 .container {
     display: flex;
-    gap: 15px;
-    padding-bottom: 10px;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 .currenci {
-    padding-top: 5px;
+    padding-top: 0.5rem;
     color: silver;
     display: flex;
     align-items: center;
-    gap: 7px;
-    font-size: 15px;
+    gap: 0.7rem;
+    font-size: 1.5rem;
 }
 
 .currenciName {
     color: #676666;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .rank {
-    font-size: 15px;
+    font-size: 1.5rem;
     color: silver;
     background-color: #3a3838;
-    width: 75px;
+    width: 7.5rem;
     text-align: center;
-    border-radius: 10px;
-    margin-top: 35px;
+    border-radius: 1rem;
+    margin-top: 3.5rem;
 }
 
 .title {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
     align-items: center;
     align-content: center;
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 
 .img {
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
 }
 
 .name {
-    font-size: 20px;
-    letter-spacing: 1px;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
     color: #ece6e6;
 }
 
 .symbol {
-    padding-top: 5px;
-    font-size: 14px;
-    letter-spacing: 1px;
+    padding-top: 0.5rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
     color: #989595;
 }
 
 .price {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 500;
     color: white;
-    padding-top: 15px;
+    padding-top: 1.5rem;
 
 }
 
 .rightSide {
-    padding-left: 110px;
+    padding-left: 5.7rem;
 }
 
 .change {
-    font-size: 15px;
+    font-size: 1.5rem;
     display: flex;
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 
 .prices {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
     align-items: center;
 
 }
 
 .options {
-    padding-top: 20px;
+    padding-top: 2rem;
     display: flex;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .button {
-    width: 45px;
-    height: 35px;
+    width: 4.5rem;
+    height: 3.5rem;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     color: silver;
     background-color: #3f3e3e;
 }
@@ -102,27 +102,27 @@
 }
 
 .priceTitle {
-    width: 300px;
-    height: 20px;
+    width: 30rem;
+    height: 2rem;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #818080;
-    padding: 5px;
-    font-size: 13px;
+    border-bottom: 0.1rem solid #818080;
+    padding: 0.5rem;
+    font-size: 1.3rem;
     color: #818080;
 }
 
 .priceData {
-    padding-top: 45px;
+    padding-top: 4.5rem;
     display: grid;
-    grid-gap: 0 10px;
+    grid-gap: 0 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
 .priceTitleNum {
     color: #d3cece;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 
 .linkCurrenci {
@@ -133,29 +133,30 @@
 
 .infoItem {
     display: flex;
-    gap: 5px;
-    padding-top: 15px;
+    gap: 0.5rem;
+    padding-top: 1.5rem;
 }
 
 .infoTitle {
     font-size: 1.25rem;
     color: #d3cece;
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 
 .infoItemName {
-    font-size: 13px;
+    font-size: 1.3rem;
     color: #818080;
-    width: 80px;
+    width: 8rem;
 }
 
 .infoLink {
     text-decoration: none;
+    font-size: 1.5rem;
     color: #d3cece;
     outline: none;
     background-color: #3b3b3b;
-    padding: 0 7px 0 7px;
-    border-radius: 10px;
+    padding: 0 0.5rem 0 0.5rem;
+    border-radius: 1rem;
 }
 
 .infoLink:hover {
@@ -164,42 +165,44 @@
 }
 
 .schedule {
-    padding: 20px 0 20px 0;
+    padding: 2rem 0 2rem 0;
+    width: 94rem;
 }
 
 .scheduleTitle {
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 500;
     color: #d3cece;
-    padding-top: 10px;
-    border-bottom: 1px solid #818080;
-    padding-bottom: 15px;
+    padding-top: 1rem;
+    border-bottom: 0.1rem solid #818080;
+    padding-bottom: 1.5rem;
     text-align: center;
 }
 .scheduleSet    {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    padding: 10px 0 20px 0;
+    gap: 4rem;
+    padding: 1rem 0 2rem 0;
 }
 .schedulePrices {
     display: flex;
-    gap: 5px;
-    border-right: 1px solid #818080;
-    padding-right: 40px;
+    gap: 0.5rem;
+    border-right: 0.1rem solid #818080;
+    padding-right: 4rem;
 
 }
 .scheduleTime   {
     display: flex;
-    gap: 5px;
+    gap: 0.5rem;
 
 }
+
 .scheduleOptions    {
     background-color: #3f3e3e;
-    padding: 0 10px 0 10px;
-    border-radius: 10px;
+    padding: 0 1rem 0 1rem;
+    border-radius: 1rem;
     color: #d3cece;
-    font-size: 15px;
+    font-size: 1.5rem;
     border: none;
     outline: none;
 }
@@ -210,8 +213,39 @@
     outline: none;
 }
 .cryptoDescription  {
-    padding-top: 20px;
-    width: 250px;
+    padding-top: 2rem;
+    width: 25rem;
     color: #d3cece;
-    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 1024px) {
+    .priceData  {
+        grid-template-columns: none;
+    }
+    .rightSide  {
+        padding-left: 9rem;
+    }
+    .schedule   {
+        width: 66rem;
+    }
+}
+
+@media (max-width: 500px)  {
+    .container  {
+        display: block;
+    }
+    .rightSide  {
+        padding: 0;
+    }
+    .priceTitle {
+        width: 26rem;
+    }
+    .schedule   {
+        width: 33rem;
+        margin-left: -5rem;
+    }
+    .scheduleTitle  {
+        margin-left: -10rem;
+    }
 }

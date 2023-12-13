@@ -1,9 +1,8 @@
 .wrapper    {
     display: grid;
-    width: 89.99rem;
-    min-height: 49.7rem;
-    height: 100%;
-    grid-template-rows: 70px 1fr;
+    width: 100vw;
+    min-height: 100vh;
+    grid-template-rows: 7rem 1fr;
     background-color: #2d2c2c;
 
 }

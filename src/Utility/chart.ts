@@ -28,7 +28,8 @@ export const chartData = (sparkLine: string[]) => {
         labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,],
         datasets: [
             {
-                pointRadius: 1,
+                pointRadius: 2,
+                borderWidth: 1,
                 data: sparkLine,
                 fill: false,
                 backgroundColor: changeColorSmall(sparkLine!),
@@ -47,11 +48,21 @@ export const optionsLarge: any = {
     animation: true,
     scales: {
         x: {
-            display: true
+            display: true,
+            ticks: {
+                font: {
+                    size: 14,
+                }
+            }
         },
         y: {
             type: 'logarithmic',
             display: true,
+            ticks: {
+                font: {
+                    size: 14,
+                }
+            }
         }
     }
 }

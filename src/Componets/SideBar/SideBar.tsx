@@ -10,28 +10,27 @@ import { BiHomeCircle } from 'react-icons/bi';
 
 const SideBar: React.FC = () => {
     return (
-        <section className={styles.wrapper}>
-            <div className={styles.Overview}>
+        <aside className={styles.wrapper}>
+            <section className={styles.Overview}>
                 <p className={styles.title}>OVERVIEW</p>
                 <Link className={styles.link} to={ROUTES.DASHBOARD}>
-                    <BiHomeCircle size={25} color={"#7a7a7a"}/>
+                    <BiHomeCircle size={"2.5rem"} color={"#7a7a7a"}/>
                     <p>Home</p>
                 </Link>
                 <Link className={styles.link} to={ROUTES.PRICE}>
-                    <img src={Prices} alt=""/>
+                    <img src={Prices} className={styles.linkImg} alt=""/>
                     <p>Prices</p>
                 </Link>
                 <Link className={styles.link} to={ROUTES.PORTFOLIO}>
-                    <img src={Portfolio} alt=""/>
+                    <img src={Portfolio} className={styles.linkImg} alt=""/>
                     <p>Portfolio</p>
                 </Link>
                 <Link className={styles.link} to={ROUTES.NEWS}>
-                    <img src={News} alt=""/>
+                    <img src={News} className={styles.linkImg} alt=""/>
                     <p>News</p>
                 </Link>
-            </div>
-
-        </section>
+            </section>
+        </aside>
     );
 }
 

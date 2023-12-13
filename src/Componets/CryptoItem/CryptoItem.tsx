@@ -29,7 +29,7 @@ const CryptoItem: React.FC<Crypto> = ({items: {iconUrl, uuid,change, sparkline, 
             <div className={styles.info}>
                 <p style={{color: switherPercent(change!)}}>{change}%</p>
                 <p className={styles.rank}>
-                    <AiOutlineStar size={18} color={"silver"}/>
+                    <AiOutlineStar size={"1.7rem"} color={"silver"}/>
                     {rank}
                 </p>
             </div>

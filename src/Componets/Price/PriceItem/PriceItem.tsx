@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from "../../Portfolio/Portfolio.module.css";
-import {AiOutlineStar} from "react-icons/ai";
-import {AiTwotoneDelete} from "react-icons/ai";
+import { MdOutlineStarPurple500 } from "react-icons/md";
 import {Link} from "react-router-dom";
 import {fixPrice, switherPercent} from "../../../Utility/fix";
 import {Crypto} from "../../CryptoItem/ICryptoItem";
@@ -21,7 +20,7 @@ const PriceItem: React.FC<Crypto> = ({items:{rank,symbol,change,price,marketCap,
     return (
         <div  className={styles.container}>
             <p className={styles.containerRate}>
-                <AiOutlineStar size={18} color={"silver"}/>
+                <MdOutlineStarPurple500 onClick={() => dispatch(deleteInFavorite(uuid))} style={{cursor: "pointer"}} size={"2.2rem"} color={"silver"}/>
                 {rank}
             </p>
             <Link onClick={sendUuid} to={`/specificItem/${symbol}`}
@@ -30,7 +29,6 @@ const PriceItem: React.FC<Crypto> = ({items:{rank,symbol,change,price,marketCap,
             <p style={{color: switherPercent(change!)}} className={styles.containerVol}>{change} </p>
             <p className={styles.containerMarket}>$ {fixPrice(marketCap)}</p>
             <p>$ {fixPrice(marketCap)}</p>
-            <AiTwotoneDelete onClick={() => dispatch(deleteInFavorite(uuid))} style={{cursor: "pointer"}} size={18} color={"silver"}/>
         </div>
     );
 }
